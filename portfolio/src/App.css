@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.page {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  background-color: rgb(16, 16, 37);
+}
+.navBar {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgb(22, 22, 51);
+  padding: 20px;
+  border: 1px rgba(39, 39, 83, 0.568) solid;
+}
+.navBox {
+  grid-row: 2;
+}
+.navTag {
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
