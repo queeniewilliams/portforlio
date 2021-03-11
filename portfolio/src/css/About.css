@@ -1,0 +1,13 @@
+.aboutPage {
+  height: 500px;
+}
+
+.section-1 {
+  background-color: blueviolet;
+  height: 150vh;
+}
+
+#footer {
+  background-color: brown;
+  height: 100vh;
+}

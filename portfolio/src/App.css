@@ -4,6 +4,7 @@
   height: 100vh;
   background-image: radial-gradient(rgb(63, 62, 62), rgb(15, 15, 15));
   border: 0.3em solid rgb(177, 161, 91);
+  height: 99vh;
 }
 .navBar {
   display: grid;
@@ -63,7 +64,7 @@ p {
 }
 
 .line {
-  width: 7em;
+  width: 8em;
   height: 1px;
   background-color: grey;
   margin: 0 1em 0 1em;

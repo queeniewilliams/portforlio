@@ -72,7 +72,7 @@ const Introduction = () => {
         <div className="title">
           <h3>Queenie Williams</h3>
           <div style={{ display: 'flex' }}>
-            <h4>UI/UX Designer</h4>
+            <h4>UX/UI Designer</h4>
             <p className="line"></p>
           </div>
           <h1>
