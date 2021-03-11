@@ -9,7 +9,6 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 15px;
-  border: 1px rgba(39, 39, 83, 0.568) solid;
 }
 .navBox {
   grid-row: 3;
