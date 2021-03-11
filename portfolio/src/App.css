@@ -1,59 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 .page {
   position: relative;
   display: flex;
   height: 100vh;
-  background-color: rgb(16, 16, 37);
+  background-image: radial-gradient(rgb(63, 62, 62), rgb(15, 15, 15));
+  border: 0.3em solid rgb(177, 161, 91);
 }
 .navBar {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
-  background-color: rgb(22, 22, 51);
-  padding: 20px;
+  padding: 15px;
   border: 1px rgba(39, 39, 83, 0.568) solid;
 }
 .navBox {
-  grid-row: 2;
+  grid-row: 3;
 }
 .navTag {
   font-size: 20px;
   padding: 20px;
   border-radius: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.main {
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.header {
+  display: flex;
+  grid-column: 2;
+  align-self: center;
+  justify-self: right;
+}
+h2 {
+  margin: 2em;
+}
+h1 {
+  grid-row: 2;
+  color: rgb(177, 161, 91);
+  font-family: 'Comfortaa', cursive;
+  font-size: 3em;
+}
+.verticalLine {
+  grid-row: 2;
+  background-color: rgb(177, 161, 91);
+  height: 20em;
+  width: 0.1em;
+  justify-self: center;
+}
+p {
+  font-size: 1.5em;
+  margin: 1em;
+  font-weight: bold;
+}
+.cards {
+  width: 30em;
+  height: 40em;
+  /* border: 0.1em solid rgb(177, 161, 91); */
+  justify-self: center;
+  align-self: center;
+}
+.line {
+  width: 7em;
+  height: 1px;
+  background-color: grey;
+  margin: 0 1em 0 1em;
+  align-self: center;
+}
+.title {
+  align-self: center;
+}
+h3 {
+  margin: 0;
+  color: rgb(165, 163, 163);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  color: grey;
+  font-size: 10px;
+}
+.slideImg {
+  height: 40em;
+  width: 30em;
 }
