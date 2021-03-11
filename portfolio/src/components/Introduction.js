@@ -5,9 +5,10 @@ import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 
 const fadeImages = [
-  'https://i.ibb.co/5kFvvNy/image.png',
-  'https://i.ibb.co/YhsTX3h/image-copy.png',
-  'images/slide_4.jpg'
+  'https://blog.shakuro.com/wp-content/uploads/2020/01/profile_screen_app_design.gif',
+  'https://cdn4.vectorstock.com/i/1000x1000/65/03/sign-up-screen-clean-mobile-ui-design-concept-vector-22346503.jpg',
+  'https://cdn2.vectorstock.com/i/1000x1000/08/51/login-screen-ui-design-vector-16790851.jpg',
+  'https://static.vecteezy.com/system/resources/previews/001/937/906/original/mobile-music-application-interface-design-ui-ux-gui-screens-music-app-flat-design-template-for-mobile-apps-vector.jpg'
 ]
 const properties = {
   duration: 1500,
@@ -83,16 +84,17 @@ const Introduction = () => {
             <div className="each-fade">
               <div className="image-container">
                 <img className="slideImg" src={fadeImages[0]} />
-              </div>
+                {/* </div>
             </div>
             <div className="each-fade">
-              <div className="image-container">
+              <div className="image-container"> */}
                 <img className="slideImg" src={fadeImages[1]} />
               </div>
             </div>
             <div className="each-fade">
               <div className="image-container">
                 <img className="slideImg" src={fadeImages[2]} />
+                <img className="slideImg" src={fadeImages[3]} />
               </div>
             </div>
           </Fade>
