@@ -51,7 +51,7 @@ const Introduction = () => {
         </div>
         <div className="main">
           <div className="header">
-            <ScrollIntoView selector="#about">
+            <ScrollIntoView selector=".container">
               {/* <NavLink
               to="/about"
               style={{ textDecoration: 'none', color: 'grey' }}
@@ -74,14 +74,14 @@ const Introduction = () => {
           <div className="title">
             <h3>Queenie Williams</h3>
             <div style={{ display: 'flex' }}>
-              <h4>UX/UI Designer</h4>
-              <p className="line"></p>
+              <h4>Front-end Developer</h4>
             </div>
-            <h1>Design</h1>
-            <h5>is thinking made visual.</h5>
-            <ScrollIntoView selector="#about">
+            <h1>
+              Design is thinking <br></br>made visual.
+            </h1>
+            <ScrollIntoView selector=".container">
               <button id="enter">
-                <h3 style={{ color: 'rgb(192, 89, 30)' }}>∨</h3>
+                <h3 style={{ color: 'rgb(192, 89, 30)', margin: '0' }}>∨</h3>
               </button>
             </ScrollIntoView>
           </div>

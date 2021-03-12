@@ -222,6 +222,17 @@
     },
     {
       "geometry": {
+        "coordinates": [-69.9649462, 12.517572],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Aruba",
+        "name": "Aruba"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [-118.2437, 34.0522],
         "type": "Point"
       },

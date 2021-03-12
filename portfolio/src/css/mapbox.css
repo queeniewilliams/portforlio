@@ -12,11 +12,11 @@
 }
 .marker {
   background-color: rgb(0, 255, 200);
-  box-shadow: 0 0 5px 2px rgba(126, 230, 230, 0.541);
+  box-shadow: 0 0 5px 4px rgba(126, 230, 230, 0.541);
 }
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 5px 2px rgba(126, 230, 230, 0.541);
+    box-shadow: 0 0 10px 5px rgba(126, 230, 230, 0.541);
   }
   100% {
     box-shadow: 0 0 20px 16px transparent;
@@ -29,7 +29,7 @@
 }
 .footprint {
   margin-left: 5em;
-  margin-top: 60vh;
+  margin-top: 70vh;
   align-items: center;
   display: flex;
   color: white;

@@ -41,26 +41,46 @@ export default class MainPage extends React.Component {
     }
     return (
       <div>
-        <div id="about">
-          <div className="left">
-            <div id="photo">PHOTO</div>
-          </div>
-          <div className="right">
-            <h3>About</h3>
-          </div>
-          <div className="navCircle">
-            {/* <ScrollIntoView selector=".page"> */}
-            <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
-            {/* </ScrollIntoView> */}
-            <ScrollIntoView selector="#projects">
+        <div className="container">
+          <div id="about">
+            <div className="left">
+              <div id="photo">PHOTO</div>
+            </div>
+            <div className="right">
+              <div id="intro">
+                <p className="line"></p>
+                <h1 style={{ color: 'white', fontSize: '3em' }}>
+                  Queenie Williams
+                </h1>
+                <h3>Front-end Developer</h3>
+                <h2>Intro</h2>
+                <img
+                  src="https://i.ibb.co/ZLWQF3M/signature-copy.png"
+                  width="300px"
+                />
+              </div>
+            </div>
+            <div className="navCircle">
+              {/* <ScrollIntoView selector=".page"> */}
+              <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
+              {/* </ScrollIntoView> */}
+              <ScrollIntoView selector=".map">
+                <div id="circle1"></div>
+              </ScrollIntoView>
               <div id="circle1"></div>
-            </ScrollIntoView>
-            <div id="circle1"></div>
-            <SlideDrawer show={this.state.drawerOpen} />
-            {backdrop}
+              <SlideDrawer show={this.state.drawerOpen} />
+              {backdrop}
+            </div>
           </div>
         </div>
-        <Footprint />
+        <div className="map">
+          <div>
+            <h3>My Footprint</h3>
+          </div>
+          <div id="map">
+            <Footprint />
+          </div>
+        </div>
       </div>
     )
   }
