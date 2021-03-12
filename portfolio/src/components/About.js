@@ -40,7 +40,12 @@ export default class MainPage extends React.Component {
     }
     return (
       <div id="about">
-        <div className="left"></div>
+        <div className="left">
+          <div id="photo">PHOTO</div>
+        </div>
+        <div className="right">
+          <h3>About</h3>
+        </div>
         <div className="navCircle">
           {/* <ScrollIntoView selector=".page"> */}
           <div id="circle1" onClick={this.drawerToggleClickHandler}></div>

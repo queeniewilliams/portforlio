@@ -35,21 +35,18 @@ const Introduction = () => {
             alt="Screen-Shot-2021-03-10-at-8-25-57-PM"
             width="80em"
           /> */}
+
           <div className="verticalLine"></div>
           <div className="navBox">
-            <NavLink
-              to="/about"
-              style={{ textDecoration: 'none', color: 'rgb(207, 198, 166)' }}
-            >
+            <NavLink to="/about" style={{ textDecoration: 'none' }}>
               <h2 className="navTag">LinkedIn</h2>
             </NavLink>
-            <NavLink
-              to="/projects"
-              style={{ textDecoration: 'none', color: 'rgb(207, 198, 166)' }}
-            >
+            <div id="circle"></div>
+            <NavLink to="/projects" style={{ textDecoration: 'none' }}>
               <h2 className="navTag">GitHub</h2>
             </NavLink>
           </div>
+          <div className="verticalLine"></div>
         </div>
         <div className="main">
           <div className="header">
@@ -58,7 +55,7 @@ const Introduction = () => {
               to="/about"
               style={{ textDecoration: 'none', color: 'grey' }}
             > */}
-              <p>About</p>
+              <p>ABOUT</p>
               {/* </NavLink> */}
             </ScrollIntoView>
             <ScrollIntoView selector="#projects">
@@ -66,14 +63,11 @@ const Introduction = () => {
               to="/projects"
               style={{ textDecoration: 'none', color: 'grey' }}
             > */}
-              <p>Projects</p>
+              <p>PROJECT</p>
               {/* </NavLink> */}
             </ScrollIntoView>
-            <NavLink
-              to="/resume"
-              style={{ textDecoration: 'none', color: 'grey' }}
-            >
-              <p>Resume</p>
+            <NavLink to="/resume" style={{ textDecoration: 'none' }}>
+              <p>RESUME</p>
             </NavLink>
           </div>
           <div className="title">
@@ -83,9 +77,12 @@ const Introduction = () => {
               <p className="line"></p>
             </div>
             <h1>Design</h1>
-            <h5>
-              is thinking <br></br>made visual.
-            </h5>
+            <h5>is thinking made visual.</h5>
+            <ScrollIntoView selector="#about">
+              <button id="enter">
+                <h3 style={{ color: 'rgb(192, 89, 30)' }}>∨</h3>
+              </button>
+            </ScrollIntoView>
           </div>
           <div className="cards">
             <Fade {...properties}>
