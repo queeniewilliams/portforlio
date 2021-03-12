@@ -57,6 +57,7 @@ h5 {
   font-size: 1.5em;
   margin-left: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0;
 }
 h1 {
   grid-row: 2;
@@ -107,7 +108,7 @@ h3 {
   color: grey;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 h4 {
   color: grey;
@@ -123,9 +124,9 @@ button.nav.default-nav {
   margin: 2em;
 }
 
-#projects {
+.projects {
   background-color: black;
-  height: 100vh;
+  height: 150vh;
 }
 
 #enter {
@@ -134,7 +135,7 @@ button.nav.default-nav {
   height: 4em;
   border: 2px solid grey;
   background-color: rgba(255, 255, 255, 0);
-  margin-top: 15em;
+  margin-top: 6em;
 }
 #enter:hover {
   border: white 2px solid;

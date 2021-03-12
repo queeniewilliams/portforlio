@@ -5,6 +5,7 @@ import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import ScrollIntoView from 'react-scroll-into-view'
 import About from './About'
+import Projects from './Projects'
 
 const fadeImages = [
   'https://blog.shakuro.com/wp-content/uploads/2020/01/profile_screen_app_design.gif',
@@ -58,7 +59,7 @@ const Introduction = () => {
               <p>ABOUT</p>
               {/* </NavLink> */}
             </ScrollIntoView>
-            <ScrollIntoView selector="#projects">
+            <ScrollIntoView selector=".projects">
               {/* <NavLink
               to="/projects"
               style={{ textDecoration: 'none', color: 'grey' }}
@@ -108,7 +109,7 @@ const Introduction = () => {
         </div>
       </div>
       <About />
-      <div id="projects">Projects</div>
+      <Projects />
     </div>
   )
 }

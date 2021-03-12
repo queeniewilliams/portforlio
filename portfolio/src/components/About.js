@@ -3,6 +3,7 @@ import '../css/About.css'
 import ScrollIntoView from 'react-scroll-into-view'
 import SlideDrawer from './SlideDrawer'
 import Backdrop from './Backdrop'
+import Footprint from './Footprint'
 
 // const About = () => {
 //   return (
@@ -39,24 +40,27 @@ export default class MainPage extends React.Component {
       backdrop = <Backdrop close={this.backdropClickHandler} />
     }
     return (
-      <div id="about">
-        <div className="left">
-          <div id="photo">PHOTO</div>
-        </div>
-        <div className="right">
-          <h3>About</h3>
-        </div>
-        <div className="navCircle">
-          {/* <ScrollIntoView selector=".page"> */}
-          <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
-          {/* </ScrollIntoView> */}
-          <ScrollIntoView selector="#projects">
+      <div>
+        <div id="about">
+          <div className="left">
+            <div id="photo">PHOTO</div>
+          </div>
+          <div className="right">
+            <h3>About</h3>
+          </div>
+          <div className="navCircle">
+            {/* <ScrollIntoView selector=".page"> */}
+            <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
+            {/* </ScrollIntoView> */}
+            <ScrollIntoView selector="#projects">
+              <div id="circle1"></div>
+            </ScrollIntoView>
             <div id="circle1"></div>
-          </ScrollIntoView>
-          <div id="circle1"></div>
-          <SlideDrawer show={this.state.drawerOpen} />
-          {backdrop}
+            <SlideDrawer show={this.state.drawerOpen} />
+            {backdrop}
+          </div>
         </div>
+        <Footprint />
       </div>
     )
   }

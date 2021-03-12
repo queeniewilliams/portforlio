@@ -1,0 +1,236 @@
+{
+  "cities": [
+    {
+      "geometry": {
+        "coordinates": [104.06667, 30.66667],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Chengdu",
+        "name": "Chengdu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [2.3488, 48.85341],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Paris",
+        "name": "Paris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [12.51133, 41.89193],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Rome",
+        "name": "Rome"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [11.2558, 43.7696],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Florence",
+        "name": "Florence"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [12.3155, 45.4408],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Venice",
+        "name": "Venice"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [25.3289, 37.4467],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Mykonos",
+        "name": "Mykonos"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [4.3517, 50.8503],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Brussels",
+        "name": "Brussels"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [121.4737, 31.2304],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Shanghai",
+        "name": "Shanghai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.1693611, 22.3193039],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Hong Kong",
+        "name": "Hong Kong"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [98.3381, 7.9519],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Phuket",
+        "name": "Phuket"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-0.1277583, 51.5073509],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "London",
+        "name": "London"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [4.8945398, 52.3666969],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Amsterdam",
+        "name": "Amsterdam"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [8.6821267, 50.1109221],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Frankfurt",
+        "name": "Frankfurt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [11.5819805, 48.1351253],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Munich",
+        "name": "Munich"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-80.221165782, 25.785996856],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Miami",
+        "name": "Miami"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-74.0, 40.7166638],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "New York City",
+        "name": "New York City"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-122.41942, 37.77493],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "San Francisco",
+        "name": "San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-115.137, 36.176],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Las Vegas",
+        "name": "Las Vegas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-117.15726, 32.71533],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "San Diego",
+        "name": "San Diego"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-77.03637, 38.89511],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Washington D.C.",
+        "name": "Washington D.C."
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [-118.2437, 34.0522],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Los Angeles",
+        "name": "Los Angeles"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
