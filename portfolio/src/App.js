@@ -1,19 +1,24 @@
+import React from 'react'
 import './App.css'
 import { Switch, Route } from 'react-router-dom'
 import Introduction from './components/Introduction'
 import About from './components/About'
 import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Resume from './components/Resume'
 
-function App() {
-  return (
-    <div>
-      <Route exact path="/" component={Introduction} />
-      <Route path="/about" component={About} />
-      <Route path="/projects" component={Projects} />
-      <Route path="/contact" component={Contact} />
-    </div>
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Switch>
+          <Route exact path="/" component={Introduction} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/resume" component={Resume} />
+        </Switch>
+      </div>
+    )
+  }
 }
 
 export default App

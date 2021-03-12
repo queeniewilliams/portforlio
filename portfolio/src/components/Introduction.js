@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import { animations } from 'react-animation'
 import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
+import ScrollIntoView from 'react-scroll-into-view'
+import About from './About'
 
 const fadeImages = [
   'https://blog.shakuro.com/wp-content/uploads/2020/01/profile_screen_app_design.gif',
@@ -14,93 +16,102 @@ const properties = {
   duration: 1500,
   transitionDuration: 500,
   infinite: true,
-  indicators: true,
+  indicators: false,
   arrows: false
 }
 
 const Introduction = () => {
   return (
-    <div className="page">
-      <div
-        className="navBar"
-        style={{
-          animation: animations.slideIn
-        }}
-      >
-        <img
-          src="https://i.ibb.co/gZFQxvB/Screen-Shot-2021-03-10-at-8-25-57-PM.png"
-          alt="Screen-Shot-2021-03-10-at-8-25-57-PM"
-          width="80em"
-        />
-        <div className="verticalLine"></div>
-        <div className="navBox">
-          <NavLink
-            to="/about"
-            style={{ textDecoration: 'none', color: 'grey' }}
-          >
-            <h2 className="navTag">LinkedIn</h2>
-          </NavLink>
-          <NavLink
-            to="/projects"
-            style={{ textDecoration: 'none', color: 'grey' }}
-          >
-            <h2 className="navTag">GitHub</h2>
-          </NavLink>
-        </div>
-      </div>
-      <div className="main">
-        <div className="header">
-          <NavLink
-            to="/about"
-            style={{ textDecoration: 'none', color: 'grey' }}
-          >
-            <p>About</p>
-          </NavLink>
-          <NavLink
-            to="/projects"
-            style={{ textDecoration: 'none', color: 'grey' }}
-          >
-            <p>Projects</p>
-          </NavLink>
-          <NavLink
-            to="/contact"
-            style={{ textDecoration: 'none', color: 'grey' }}
-          >
-            <p>Contact</p>
-          </NavLink>
-        </div>
-        <div className="title">
-          <h3>Queenie Williams</h3>
-          <div style={{ display: 'flex' }}>
-            <h4>UX/UI Designer</h4>
-            <p className="line"></p>
+    <div>
+      <div className="page">
+        <div
+          className="navBar"
+          style={{
+            animation: animations.slideIn
+          }}
+        >
+          {/* <img
+            src="https://i.ibb.co/gZFQxvB/Screen-Shot-2021-03-10-at-8-25-57-PM.png"
+            alt="Screen-Shot-2021-03-10-at-8-25-57-PM"
+            width="80em"
+          /> */}
+          <div className="verticalLine"></div>
+          <div className="navBox">
+            <NavLink
+              to="/about"
+              style={{ textDecoration: 'none', color: 'rgb(207, 198, 166)' }}
+            >
+              <h2 className="navTag">LinkedIn</h2>
+            </NavLink>
+            <NavLink
+              to="/projects"
+              style={{ textDecoration: 'none', color: 'rgb(207, 198, 166)' }}
+            >
+              <h2 className="navTag">GitHub</h2>
+            </NavLink>
           </div>
-          <h1>
-            Design is thinking <br></br>made visual.
-          </h1>
         </div>
-        <div className="cards">
-          <Fade {...properties}>
-            <div className="each-fade">
-              <div className="image-container">
-                <img className="slideImg" src={fadeImages[0]} />
-                {/* </div>
+        <div className="main">
+          <div className="header">
+            <ScrollIntoView selector="#about">
+              {/* <NavLink
+              to="/about"
+              style={{ textDecoration: 'none', color: 'grey' }}
+            > */}
+              <p>About</p>
+              {/* </NavLink> */}
+            </ScrollIntoView>
+            <ScrollIntoView selector="#projects">
+              {/* <NavLink
+              to="/projects"
+              style={{ textDecoration: 'none', color: 'grey' }}
+            > */}
+              <p>Projects</p>
+              {/* </NavLink> */}
+            </ScrollIntoView>
+            <NavLink
+              to="/resume"
+              style={{ textDecoration: 'none', color: 'grey' }}
+            >
+              <p>Resume</p>
+            </NavLink>
+          </div>
+          <div className="title">
+            <h3>Queenie Williams</h3>
+            <div style={{ display: 'flex' }}>
+              <h4>UX/UI Designer</h4>
+              <p className="line"></p>
+            </div>
+            <h1>Design</h1>
+            <h5>
+              is thinking <br></br>made visual.
+            </h5>
+          </div>
+          <div className="cards">
+            <Fade {...properties}>
+              <div className="each-fade">
+                <div className="image-container">
+                  <img className="slideImg" src={fadeImages[0]} />
+                  {/* </div>
             </div>
             <div className="each-fade">
               <div className="image-container"> */}
-                <img className="slideImg" src={fadeImages[1]} />
+                  <img className="slideImg" src={fadeImages[1]} />
+                </div>
               </div>
-            </div>
-            <div className="each-fade">
-              <div className="image-container">
-                <img className="slideImg" src={fadeImages[2]} />
-                <img className="slideImg" src={fadeImages[3]} />
+              <div className="each-fade">
+                <div className="image-container">
+                  <img className="slideImg" src={fadeImages[2]} />
+                  <img className="slideImg" src={fadeImages[3]} />
+                </div>
               </div>
-            </div>
-          </Fade>
-          {/* <h2>Project Card</h2> */}
+            </Fade>
+            {/* <h2>Project Card</h2> */}
+          </div>
         </div>
       </div>
+      <About />
+      <div id="projects">Projects</div>
     </div>
   )
 }
