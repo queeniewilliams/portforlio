@@ -1,0 +1,44 @@
+.projects {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  height: 100%;
+}
+.navlink {
+  justify-self: center;
+  width: 80vw;
+  height: 50vh;
+  margin: 2em;
+}
+.project {
+  background-color: rgb(31, 30, 30);
+  border-radius: 10px;
+  opacity: 0.6;
+  padding: 1em 0 1em 0;
+  display: flex;
+  height: 40vh;
+}
+.project:hover {
+  opacity: 1;
+}
+#project-intro {
+  display: grid;
+  width: 500px;
+  margin-left: 2em;
+}
+#project-name {
+  font-size: 30px;
+  color: white;
+  margin-left: 0;
+}
+#text {
+  color: white;
+  font-size: 20px;
+  margin-left: 0;
+}
+#icons {
+  display: flex;
+  align-items: center;
+  justify-self: left;
+  align-self: center;
+}
