@@ -11,12 +11,12 @@
   border-radius: 50%;
 }
 .marker {
-  background-color: rgb(0, 255, 200);
-  box-shadow: 0 0 5px 4px rgba(126, 230, 230, 0.541);
+  background-color: rgb(233, 149, 24);
+  box-shadow: 0 0 15px 3px rgba(245, 174, 20, 0.541);
 }
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 10px 5px rgba(126, 230, 230, 0.541);
+    box-shadow: 0 0 20px 5px rgba(245, 174, 20, 0.541);
   }
   100% {
     box-shadow: 0 0 20px 16px transparent;
@@ -24,12 +24,12 @@
   }
 }
 .marker-current {
-  background-color: rgb(0, 255, 200);
+  background-color: rgb(233, 149, 24);
   animation: glowing 1.2s ease infinite;
 }
 .footprint {
   margin-left: 5em;
-  margin-top: 70vh;
+  margin-top: 50vh;
   align-items: center;
   display: flex;
   color: white;

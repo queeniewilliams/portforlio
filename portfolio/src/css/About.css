@@ -7,7 +7,7 @@
   height: 150vh;
 }
 .container {
-  background-image: url('https://i.ibb.co/PYqS58T/imageedit-1-2439733010.jpg');
+  background-image: url('https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?size=626&ext=jpg');
   display: grid;
   height: 100vh;
 }
@@ -16,7 +16,7 @@
   justify-self: center;
   align-self: center;
   width: 85vw;
-  background-color: rgba(0, 0, 0, 0.733);
+  background-color: rgba(238, 236, 236, 0.658);
   height: 85vh;
   display: grid;
   grid-template-columns: 5fr 4fr 1fr;
@@ -28,9 +28,6 @@
 #photo {
   justify-self: center;
   align-self: center;
-  border: white 1px solid;
-  width: 20em;
-  height: 30em;
 }
 .right {
   display: grid;
@@ -44,7 +41,7 @@
 .line {
   width: 12em;
   height: 2px;
-  background-color: rgb(192, 89, 30);
+  background-color: rgb(236, 178, 90);
   margin-left: 0;
 }
 .navCircle {
@@ -57,7 +54,7 @@
   width: 1em;
   height: 1em;
   margin: 1em;
-  background-color: rgb(192, 89, 30);
+  background-color: rgb(236, 178, 90);
   opacity: 0.5;
 }
 #circle1:hover {
@@ -97,8 +94,21 @@
 #sideNav:hover {
   opacity: 1;
 }
+#my-footprint {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Hind', cursive;
+}
 .map {
+  padding: 5em;
   display: grid;
   height: 100vh;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+}
+#map-secton {
+  border: rgb(8, 8, 8) 20px solid;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  padding: 1em;
 }

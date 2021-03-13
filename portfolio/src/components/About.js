@@ -27,16 +27,21 @@ export default class About extends React.Component {
         <div className="container">
           <div id="about">
             <div className="left">
-              <div id="photo">PHOTO</div>
+              {/* <img
+                id="photo"
+                src="https://i.ibb.co/DLkdbsc/headshot.jpg"
+                alt="headshot"
+                width="400px"
+              /> */}
             </div>
             <div className="right">
               <div id="intro">
                 <p className="line"></p>
-                <h1 style={{ color: 'white', fontSize: '3em' }}>
+                <h1 style={{ color: 'black', fontSize: '3em' }}>
                   Queenie Williams
                 </h1>
-                <h3>Front-end Developer</h3>
-                <h4 style={{ marginTop: '40px' }}>
+                <h3 style={{ color: 'black' }}>Front-end Developer</h3>
+                <h4 style={{ color: 'black', marginTop: '40px' }}>
                   I am an aspiring software engineer with an interest in
                   JavaScript and the front-end of applications. My previous
                   background in interior design brought me close to my true
@@ -50,7 +55,7 @@ export default class About extends React.Component {
                   grow, and continue to master the craft.
                 </h4>
                 <img
-                  src="https://i.ibb.co/ZLWQF3M/signature-copy.png"
+                  src="https://i.ibb.co/PgqmHSr/signature-copy-2.png"
                   width="300px"
                 />
                 <br></br>
@@ -79,10 +84,23 @@ export default class About extends React.Component {
         </div>
         <div className="map">
           <div>
-            <h3>My Footprint</h3>
+            <h3 id="my-footprint">
+              Minimalism<br></br>at its finest.
+            </h3>
           </div>
-          <div id="map">
+          <div id="map-secton">
             <Map />
+            <div className="navCircle">
+              {/* <ScrollIntoView selector=".page"> */}
+              <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
+              {/* </ScrollIntoView> */}
+              <ScrollIntoView selector=".map">
+                <div id="circle1"></div>
+              </ScrollIntoView>
+              <div id="circle1"></div>
+              <SlideDrawer show={this.state.drawerOpen} />
+              {backdrop}
+            </div>
           </div>
         </div>
       </div>

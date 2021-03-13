@@ -22,8 +22,8 @@ const PopupCurrent = ({ coordinate, city }) => (
 
 const Map = () => {
   const [viewport, setViewport] = useState({
-    width: '175vw',
-    height: '80vh',
+    width: '80vw',
+    height: '70vh',
     latitude: 32,
     longitude: 20
   })

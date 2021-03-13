@@ -81,7 +81,7 @@ const Introduction = () => {
             </h1>
             <ScrollIntoView selector=".container">
               <button id="enter">
-                <h3 style={{ color: 'rgb(192, 89, 30)', margin: '0' }}>∨</h3>
+                <h3 style={{ color: 'black', margin: '0' }}>∨</h3>
               </button>
             </ScrollIntoView>
           </div>
