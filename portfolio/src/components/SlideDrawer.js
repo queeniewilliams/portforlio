@@ -14,7 +14,8 @@ export default class SlideDrawer extends React.Component {
           <ScrollIntoView selector=".page">
             <img
               id="sideNav"
-              src="https://i.ibb.co/X49ZrH7/Screen-Shot-2021-03-11-at-6-39-05-PM.png"
+              src="https://i.ibb.co/4sPfHDV/Screen-Shot-2021-03-12-at-10-11-38-PM.png
+              "
               alt="project-Logo"
               width="70em"
             />
@@ -22,7 +23,7 @@ export default class SlideDrawer extends React.Component {
           <ScrollIntoView selector=".projects">
             <img
               id="sideNav"
-              src="https://i.ibb.co/0Xk0Kkm/Screen-Shot-2021-03-11-at-6-37-01-PM.png"
+              src="https://i.ibb.co/T2vk8f9/Screen-Shot-2021-03-12-at-10-14-53-PM.png"
               alt="project-Logo"
               width="70em"
             />

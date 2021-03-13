@@ -113,10 +113,10 @@
 .map {
   display: grid;
   height: 100vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(63, 62, 62);
 }
 #map-secton {
-  border: rgb(8, 8, 8) 20px solid;
+  border: black 20px solid;
   justify-self: center;
   align-self: center;
   display: flex;
