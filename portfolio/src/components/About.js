@@ -25,23 +25,14 @@ export default class About extends React.Component {
     return (
       <div>
         <div className="container">
-          <img
-            id="menu-icon"
-            src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
-            alt="menu"
-            width="50px"
-            onClick={this.drawerToggleClickHandler}
-          />
-          <SlideDrawer show={this.state.drawerOpen} />
-          {backdrop}
           <div id="about">
             <div className="left">
-              {/* <img
+              <img
                 id="photo"
                 src="https://i.ibb.co/DLkdbsc/headshot.jpg"
                 alt="headshot"
                 width="400px"
-              /> */}
+              />
             </div>
             <div className="right">
               <div id="intro">
@@ -79,6 +70,15 @@ export default class About extends React.Component {
               </div>
             </div>
             <div className="navCircle">
+              <img
+                id="menu-icon"
+                src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
+                alt="menu"
+                width="50px"
+                onClick={this.drawerToggleClickHandler}
+              />
+              <SlideDrawer show={this.state.drawerOpen} />
+              {backdrop}
               {/* <ScrollIntoView selector=".page"> */}
               <ScrollIntoView selector=".page">
                 <div id="circle1"></div>
@@ -94,15 +94,6 @@ export default class About extends React.Component {
           </div>
         </div>
         <div className="map">
-          <img
-            id="menu-icon"
-            src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
-            alt="menu"
-            width="50px"
-            onClick={this.drawerToggleClickHandler}
-          />
-          <SlideDrawer show={this.state.drawerOpen} />
-          {backdrop}
           <div>
             <h3 id="my-footprint">
               Minimalism<br></br>at its finest.
@@ -111,6 +102,15 @@ export default class About extends React.Component {
           <div id="map-secton">
             <Map />
             <div className="navCircle">
+              <img
+                id="menu-icon"
+                src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
+                alt="menu"
+                width="50px"
+                onClick={this.drawerToggleClickHandler}
+              />
+              <SlideDrawer show={this.state.drawerOpen} />
+              {backdrop}
               {/* <ScrollIntoView selector=".page"> */}
               <ScrollIntoView selector=".container">
                 <div id="circle1"></div>

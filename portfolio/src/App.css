@@ -5,7 +5,11 @@ html {
   position: relative;
   display: flex;
   height: 100vh;
-  background-image: linear-gradient(white, rgb(160, 159, 159));
+  /* background-image: url('https://wallpaperaccess.com/full/983751.jpg'); */
+  background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/bc/2f/35/bc2f3538fc810a35de7f8edae05d29b7.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-image: linear-gradient(white, rgb(160, 159, 159)); */
   /* border: 0.3em solid rgb(201, 135, 12); */
   /* height: 99vh; */
 }
@@ -29,7 +33,7 @@ html {
   border-radius: 50em;
   width: 1em;
   height: 1em;
-  border: 2px solid black;
+  border: 2px solid white;
   margin-left: 3em;
 }
 .main {
@@ -47,7 +51,7 @@ html {
 }
 h2 {
   margin: 2em;
-  color: black;
+  color: white;
 }
 h2:hover {
   color: white;
@@ -61,21 +65,21 @@ h2:hover {
 } */
 h1 {
   grid-row: 2;
-  color: rgb(236, 178, 90);
+  color: rgb(228, 191, 143);
   font-family: 'Hind', sans-serif;
   font-size: 4.5em;
   margin-bottom: 0;
   line-height: 1em;
 }
 .verticalLine {
-  background-color: black;
+  background-color: white;
   height: 10em;
   width: 0.1em;
   justify-self: center;
   align-self: center;
 }
 p {
-  color: black;
+  color: white;
   font-size: 1em;
   margin: 0 4em 0 4em;
   font-weight: bold;
@@ -123,7 +127,7 @@ button.nav.default-nav {
   border-radius: 50em;
   width: 4em;
   height: 4em;
-  border: 2px solid rgb(236, 178, 90);
+  border: 2px solid black;
   background-color: rgba(255, 255, 255, 0);
   margin-top: 5em;
   /* margin-left: 40em; */
