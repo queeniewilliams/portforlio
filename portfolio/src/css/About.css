@@ -9,6 +9,7 @@
 .container {
   background-image: url('https://img.freepik.com/free-vector/digital-white-background-with-binary-code-numbers_1017-25335.jpg?size=626&ext=jpg');
   display: grid;
+  grid-template-rows: 1fr 20fr;
   height: 100vh;
 }
 
@@ -48,6 +49,15 @@
   justify-self: right;
   align-self: center;
   grid-column: 3;
+}
+#menu-icon {
+  opacity: 0.6;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: auto;
+}
+#menu-icon:hover {
+  transform: scale(1.1);
 }
 #circle1 {
   border-radius: 50em;
@@ -98,9 +108,10 @@
   text-align: center;
   font-size: 3em;
   font-family: 'Hind', cursive;
+  margin-top: 0;
+  line-height: 1;
 }
 .map {
-  padding: 5em;
   display: grid;
   height: 100vh;
   background-color: rgb(255, 255, 255);

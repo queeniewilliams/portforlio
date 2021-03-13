@@ -25,6 +25,15 @@ export default class About extends React.Component {
     return (
       <div>
         <div className="container">
+          <img
+            id="menu-icon"
+            src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
+            alt="menu"
+            width="50px"
+            onClick={this.drawerToggleClickHandler}
+          />
+          <SlideDrawer show={this.state.drawerOpen} />
+          {backdrop}
           <div id="about">
             <div className="left">
               {/* <img
@@ -71,18 +80,29 @@ export default class About extends React.Component {
             </div>
             <div className="navCircle">
               {/* <ScrollIntoView selector=".page"> */}
-              <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
+              <ScrollIntoView selector=".page">
+                <div id="circle1"></div>
+              </ScrollIntoView>
               {/* </ScrollIntoView> */}
               <ScrollIntoView selector=".map">
                 <div id="circle1"></div>
               </ScrollIntoView>
-              <div id="circle1"></div>
-              <SlideDrawer show={this.state.drawerOpen} />
-              {backdrop}
+              <ScrollIntoView selector=".projects">
+                <div id="circle1"></div>
+              </ScrollIntoView>
             </div>
           </div>
         </div>
         <div className="map">
+          <img
+            id="menu-icon"
+            src="https://i.ibb.co/kHKpM6V/hamburger-menu-icon-png-53.png"
+            alt="menu"
+            width="50px"
+            onClick={this.drawerToggleClickHandler}
+          />
+          <SlideDrawer show={this.state.drawerOpen} />
+          {backdrop}
           <div>
             <h3 id="my-footprint">
               Minimalism<br></br>at its finest.
@@ -92,14 +112,14 @@ export default class About extends React.Component {
             <Map />
             <div className="navCircle">
               {/* <ScrollIntoView selector=".page"> */}
-              <div id="circle1" onClick={this.drawerToggleClickHandler}></div>
+              <ScrollIntoView selector=".container">
+                <div id="circle1"></div>
+              </ScrollIntoView>
               {/* </ScrollIntoView> */}
-              <ScrollIntoView selector=".map">
+              <ScrollIntoView selector=".projects">
                 <div id="circle1"></div>
               </ScrollIntoView>
               <div id="circle1"></div>
-              <SlideDrawer show={this.state.drawerOpen} />
-              {backdrop}
             </div>
           </div>
         </div>

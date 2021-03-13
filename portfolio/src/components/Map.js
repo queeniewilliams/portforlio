@@ -24,8 +24,8 @@ const Map = () => {
   const [viewport, setViewport] = useState({
     width: '80vw',
     height: '70vh',
-    latitude: 32,
-    longitude: 20
+    latitude: 30,
+    longitude: -60
   })
 
   const CURRENT = 'Los Angeles'
