@@ -89,18 +89,34 @@ const Introduction = () => {
             <Fade {...properties}>
               <div className="each-fade">
                 <div className="image-container">
-                  <img className="slideImg" src={fadeImages[0]} />
+                  <img
+                    className="slideImg"
+                    src={fadeImages[0]}
+                    alt="slideshow"
+                  />
                   {/* </div>
             </div>
             <div className="each-fade">
               <div className="image-container"> */}
-                  <img className="slideImg" src={fadeImages[1]} />
+                  <img
+                    className="slideImg"
+                    src={fadeImages[1]}
+                    alt="slideshow"
+                  />
                 </div>
               </div>
               <div className="each-fade">
                 <div className="image-container">
-                  <img className="slideImg" src={fadeImages[2]} />
-                  <img className="slideImg" src={fadeImages[3]} />
+                  <img
+                    className="slideImg"
+                    src={fadeImages[2]}
+                    alt="slideshow"
+                  />
+                  <img
+                    className="slideImg"
+                    src={fadeImages[3]}
+                    alt="slideshow"
+                  />
                 </div>
               </div>
             </Fade>

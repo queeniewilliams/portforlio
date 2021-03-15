@@ -13,6 +13,7 @@ const Projects = () => {
         <div className="project">
           <img
             src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            alt="project"
             width="600px"
           />
 
@@ -26,19 +27,23 @@ const Projects = () => {
             <div id="icons">
               <img
                 src="https://i.ibb.co/jbY89w4/design-development-facebook-framework-mobile-react-icon-1320165723839064798-512.png"
+                alt="project"
                 width="90px"
               />
               <img
                 src="https://i.ibb.co/KF8bKgD/install-javascript-js-node-npm-tools-icon-1320165731324625592-512.png"
+                alt="project"
                 width="90px"
               />
               <img
                 src="https://i.ibb.co/k8njgQK/mongodb-original-wordmark-1324760552967962880-512.png"
+                alt="project"
                 width="75px"
                 height="75px"
               />
               <img
                 src="https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png"
+                alt="project"
                 width="70px"
                 height="75px"
               />
@@ -50,6 +55,7 @@ const Projects = () => {
         <div className="project">
           <img
             src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            alt="project"
             width="600px"
           />
           <div id="project-intro">
@@ -61,6 +67,7 @@ const Projects = () => {
         <div className="project">
           <img
             src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            alt="project"
             width="600px"
           />
           <div id="project-intro">
@@ -72,6 +79,7 @@ const Projects = () => {
         <div className="project">
           <img
             src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            alt="project"
             width="600px"
           />
           <div id="project-intro">

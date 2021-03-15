@@ -56,15 +56,18 @@ export default class About extends React.Component {
                 </h4>
                 <img
                   src="https://i.ibb.co/PgqmHSr/signature-copy-2.png"
+                  alt="signature"
                   width="300px"
                 />
                 <br></br>
                 <img
                   src="https://i.ibb.co/ZJg2gCJ/kisspng-linkedin-computer-icons-business-advertising-compa-grey-background-5acab17806b152-7517612915.png"
+                  alt="icon"
                   width="50px"
                 />
                 <img
                   src="https://i.ibb.co/ZmChxdM/pngfind-com-github-png-2562232.png"
+                  alt="icon"
                   width="47px"
                 />
               </div>

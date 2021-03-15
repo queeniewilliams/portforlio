@@ -156,6 +156,28 @@
     },
     {
       "geometry": {
+        "coordinates": [16.3738, 48.2082],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Vienna",
+        "name": "Vienna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [11.59, 47.2947],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Wattens",
+        "name": "Wattens"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [-80.2212, 25.786],
         "type": "Point"
       },
