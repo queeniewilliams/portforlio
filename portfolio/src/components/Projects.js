@@ -7,16 +7,16 @@ const Projects = () => {
     <div className="projects">
       <NavLink
         className="navlink"
-        to="/fincloud"
+        to="/projects/fincloud"
         style={{ textDecoration: 'none' }}
       >
         <div className="project">
           <img
-            src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            src="https://i.ibb.co/DYxz1C7/expensetracker.jpg"
             alt="project"
-            width="600px"
+            width="570px"
+            style={{ borderRadius: '5px', filter: 'brightness(60%)' }}
           />
-
           <div id="project-intro">
             <p id="project-name">FinCloud</p>
             <p id="text">
@@ -54,9 +54,10 @@ const Projects = () => {
       <NavLink className="navlink" to="/p2" style={{ textDecoration: 'none' }}>
         <div className="project">
           <img
-            src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            src="https://i.ibb.co/vd9R5KW/covid19-main.png"
             alt="project"
-            width="600px"
+            width="570px"
+            style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
             <h2>Project 2</h2>
@@ -66,9 +67,10 @@ const Projects = () => {
       <NavLink className="navlink" to="/p3" style={{ textDecoration: 'none' }}>
         <div className="project">
           <img
-            src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            src="https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png"
             alt="project"
-            width="600px"
+            width="570px"
+            style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
             <h2>Project 3</h2>

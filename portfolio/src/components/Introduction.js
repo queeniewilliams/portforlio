@@ -8,14 +8,14 @@ import About from './About'
 import Projects from './Projects'
 
 const fadeImages = [
-  'https://blog.shakuro.com/wp-content/uploads/2020/01/profile_screen_app_design.gif',
-  'https://cdn4.vectorstock.com/i/1000x1000/65/03/sign-up-screen-clean-mobile-ui-design-concept-vector-22346503.jpg',
-  'https://cdn2.vectorstock.com/i/1000x1000/08/51/login-screen-ui-design-vector-16790851.jpg',
+  'https://i.ibb.co/DYxz1C7/expensetracker.jpg',
+  'https://i.ibb.co/vd9R5KW/covid19-main.png',
+  'https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png',
   'https://static.vecteezy.com/system/resources/previews/001/937/906/original/mobile-music-application-interface-design-ui-ux-gui-screens-music-app-flat-design-template-for-mobile-apps-vector.jpg'
 ]
 const properties = {
-  duration: 1500,
-  transitionDuration: 500,
+  duration: 8000,
+  transitionDuration: 1000,
   infinite: true,
   indicators: false,
   arrows: false
@@ -93,6 +93,7 @@ const Introduction = () => {
                     className="slideImg"
                     src={fadeImages[0]}
                     alt="slideshow"
+                    style={{ filter: 'brightness(70%)' }}
                   />
                   {/* </div>
             </div>
