@@ -59,7 +59,7 @@ const FinCloud = () => {
         </span>
       </section>
       <section className="section3">
-        <p style={{ color: 'rgb(173, 173, 173)' }}>
+        <h2 style={{ color: 'rgb(173, 173, 173)' }}>
           After login, the user can access the following key features:
           <br />
           <br />
@@ -82,7 +82,7 @@ const FinCloud = () => {
           are accumulated to the daily, weekly and monthly total sum and
           visualized as a histogram. The user then gets a better understanding
           of the weekly, monthly and yearly fluctuation of incomes and expenses.
-        </p>
+        </h2>
       </section>
       <section className="section4">
         <span>
