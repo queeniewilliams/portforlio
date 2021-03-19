@@ -44,10 +44,18 @@
   align-self: center;
 }
 .project-box {
-  background-color: rgb(39, 38, 38);
+  position: relative;
+  background-color: rgb(8, 8, 8);
   display: grid;
   height: 100%;
 }
+#title-1 {
+  position: absolute;
+  top: -24%;
+  left: 10%;
+  font-size: 8em;
+}
+
 .section1 {
   width: 100vw;
   height: 100vh;
@@ -58,20 +66,28 @@
 }
 li {
   list-style: none;
-  color: white;
+  color: rgb(173, 173, 173);
   margin: 1em auto 1em 0;
+  font-weight: bold;
 }
 .section2 {
-  width: 100vw;
+  width: 70vw;
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
+  justify-self: center;
 }
 .section3 {
+  justify-self: center;
+  width: 70%;
+}
+.section4 {
+  width: 70%;
   height: 100%;
-  display: grid;
-  justify-items: center;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
 }
 hr {
   height: 2px;

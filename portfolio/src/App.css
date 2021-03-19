@@ -136,7 +136,7 @@ button.nav.default-nav {
 #enter:hover {
   border: white 2px solid;
 }
-@media (max-width: 1250px) {
+@media (max-width: 600px) {
   .page {
     width: 100%;
   }

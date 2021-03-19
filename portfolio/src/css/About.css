@@ -94,9 +94,12 @@
   top: 0;
   right: 0;
 }
-#sideNav {
-  justify-self: center;
+.sideNav {
   align-self: center;
+  display: grid;
+  justify-items: center;
+}
+#sideNav {
   margin: 1em 0 1em 0;
   opacity: 0.7;
 }
