@@ -7,7 +7,7 @@ html {
   display: flex;
   height: 100vh;
   /* background-image: url('https://wallpaperaccess.com/full/983751.jpg'); */
-  background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/bc/2f/35/bc2f3538fc810a35de7f8edae05d29b7.jpg');
+  /* background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/bc/2f/35/bc2f3538fc810a35de7f8edae05d29b7.jpg'); */
   background-repeat: no-repeat;
   background-color: black;
   /* background-image: linear-gradient(white, rgb(160, 159, 159)); */
@@ -104,14 +104,14 @@ p:hover {
 }
 h3 {
   margin-top: 1em;
-  color: black;
+  color: rgb(156, 154, 154);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
 h4 {
   margin-top: -1em;
-  color: black;
+  color: rgb(156, 154, 154);
   font-size: 15px;
   font-family: 'Hind', sans-serif;
 }
@@ -128,10 +128,10 @@ button.nav.default-nav {
   border-radius: 50em;
   width: 4em;
   height: 4em;
-  border: 2px solid black;
+  border: 2px solid rgb(156, 154, 154);
   background-color: rgba(255, 255, 255, 0);
   margin-top: 5em;
-  /* margin-left: 40em; */
+  margin-left: 2em;
 }
 #enter:hover {
   border: white 2px solid;

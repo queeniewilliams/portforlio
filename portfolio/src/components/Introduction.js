@@ -79,17 +79,22 @@ const Introduction = () => {
           </div>
           <div className="title">
             <h3>Queenie Williams</h3>
-            <div style={{ display: 'flex' }}>
+            <div>
               <h4>Front-end Developer</h4>
             </div>
             <h1>
               Design is thinking <br></br>made visual.
             </h1>
-            <ScrollIntoView selector=".container">
-              <button id="enter">
-                <h3 style={{ color: 'rgb(228, 191, 143)', margin: '0' }}>∨</h3>
-              </button>
-            </ScrollIntoView>
+            <div style={{ display: 'flex' }}>
+              <h3 style={{ marginTop: '4em' }}>View Profile</h3>
+              <ScrollIntoView selector=".container">
+                <button id="enter">
+                  <h3 style={{ color: 'rgb(228, 191, 143)', margin: '0' }}>
+                    ∨
+                  </h3>
+                </button>
+              </ScrollIntoView>
+            </div>
           </div>
           <div className="cards">
             <Fade {...properties}>

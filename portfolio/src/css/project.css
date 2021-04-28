@@ -2,7 +2,7 @@
   padding: 10em 0 10em 0;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-color: rgb(63, 62, 62);
+  background-color: black;
   height: 100%;
 }
 .navlink {
@@ -122,7 +122,7 @@ hr {
   display: grid;
 }
 header {
-  background-color: rgb(253, 249, 230);
+  background-color: rgb(250, 248, 240);
   height: 500px;
   display: grid;
   align-items: center;
@@ -138,8 +138,8 @@ header {
 .body-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   margin-top: 10em;
+  align-items: center;
 }
 .demo {
   grid-column: 2;
@@ -153,4 +153,39 @@ header {
 .demo-section {
   justify-self: center;
   margin-top: 10em;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-30px);
+  }
+  60% {
+    transform: translateX(-15px);
+  }
+}
+
+#h1 {
+  font-size: 4em;
+}
+
+.wireframe {
+  display: grid;
+  justify-items: center;
 }

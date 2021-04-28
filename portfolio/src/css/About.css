@@ -4,9 +4,8 @@
 
 .container {
   /* background-image: url('https://i.pinimg.com/564x/cb/0b/05/cb0b050b55a5f70f061e5da0c410fea9.jpg'); */
-  background-color: rgb(63, 62, 62);
-  background-repeat: no-repeat;
-  background-position-x: right;
+  /* background-color: rgb(63, 62, 62); */
+  background-color: black;
   display: grid;
   /* grid-template-rows: 1fr 20fr; */
   height: 100vh;
@@ -112,16 +111,19 @@
   font-family: 'Hind', cursive;
   /* margin-top: 0; */
   line-height: 1;
+  color: rgb(228, 191, 143);
+  margin-bottom: 0;
 }
 .map {
   display: grid;
   height: 100vh;
-  background-color: rgb(63, 62, 62);
+  background-image: url('https://cdn.statically.io/img/i.pinimg.com/originals/bc/2f/35/bc2f3538fc810a35de7f8edae05d29b7.jpg');
+  background-repeat: no-repeat;
+  background-color: black;
 }
 #map-secton {
-  border: black 20px solid;
+  /* border: rgb(247, 242, 242) 20px solid; */
   justify-self: center;
-  align-self: center;
   display: flex;
   padding: 1em;
 }

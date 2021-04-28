@@ -97,11 +97,9 @@ export default class About extends React.Component {
           </div>
         </div>
         <div className="map">
-          <div>
-            <h3 id="my-footprint">
-              Minimalism<br></br>at its finest.
-            </h3>
-          </div>
+          <h3 id="my-footprint">
+            Minimalism<br></br>at its finest.
+          </h3>
           <div id="map-secton">
             <Map />
             <div className="navCircle">
