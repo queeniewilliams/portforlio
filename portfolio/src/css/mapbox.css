@@ -16,10 +16,10 @@
 }
 @keyframes glowing {
   0% {
-    box-shadow: 0 0 20px 5px rgba(245, 174, 20, 0.541);
+    box-shadow: 0 0 20px 20px rgba(245, 174, 20, 0.541);
   }
   100% {
-    box-shadow: 0 0 20px 16px transparent;
+    box-shadow: 0 0 20px 20px transparent;
     border-width: 2px;
   }
 }

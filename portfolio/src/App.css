@@ -68,7 +68,7 @@ h1 {
   grid-row: 2;
   color: rgb(228, 191, 143);
   font-family: 'Hind', sans-serif;
-  font-size: 4.5em;
+  font-size: 5em;
   margin-bottom: 0;
   line-height: 1em;
 }
@@ -90,11 +90,11 @@ p:hover {
   color: rgb(145, 144, 143);
 }
 .cards {
-  width: 35em;
+  width: 37em;
   height: 45em;
   /* border: 0.1em solid rgb(177, 161, 91); */
-  justify-self: left;
-  align-self: flex-end;
+  justify-self: center;
+  align-self: center;
 }
 
 .title {

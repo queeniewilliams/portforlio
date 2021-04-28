@@ -13,6 +13,39 @@
     },
     {
       "geometry": {
+        "coordinates": [109.5119, 18.2528],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Sanya",
+        "name": "Sanya"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [100.2277, 26.855],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Lijiang",
+        "name": "Lijiang"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [100.2277, 25.6065],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Dali",
+        "name": "Dali"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
         "coordinates": [2.3488, 48.85341],
         "type": "Point"
       },

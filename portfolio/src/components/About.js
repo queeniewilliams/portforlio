@@ -42,7 +42,7 @@ export default class About extends React.Component {
                 </h1>
                 <h3 style={{ color: 'black' }}>Front-end Developer</h3>
                 <h4 style={{ color: 'black', marginTop: '40px' }}>
-                  I am an aspiring software engineer with an interest in
+                  I am a front-end software engineer with an interest in
                   JavaScript and the front-end of applications. My previous
                   background in interior design brought me close to my true
                   passion: building web applications. I wasn’t satisfied with
@@ -114,7 +114,9 @@ export default class About extends React.Component {
               />
               <SlideDrawer show={this.state.drawerOpen} />
               {backdrop}
-              {/* <ScrollIntoView selector=".page"> */}
+              <ScrollIntoView selector=".page">
+                <div id="circle1"></div>
+              </ScrollIntoView>
               <ScrollIntoView selector=".container">
                 <div id="circle1"></div>
               </ScrollIntoView>
@@ -122,7 +124,6 @@ export default class About extends React.Component {
               <ScrollIntoView selector=".projects">
                 <div id="circle1"></div>
               </ScrollIntoView>
-              <div id="circle1"></div>
             </div>
           </div>
         </div>

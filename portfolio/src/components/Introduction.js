@@ -11,10 +11,10 @@ const fadeImages = [
   'https://i.ibb.co/DYxz1C7/expensetracker.jpg',
   'https://i.ibb.co/vd9R5KW/covid19-main.png',
   'https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png',
-  'https://static.vecteezy.com/system/resources/previews/001/937/906/original/mobile-music-application-interface-design-ui-ux-gui-screens-music-app-flat-design-template-for-mobile-apps-vector.jpg'
+  'https://i.ibb.co/y88rRxB/Screen-Shot-2021-04-18-at-8-17-14-PM.png'
 ]
 const properties = {
-  duration: 8000,
+  duration: 4000,
   transitionDuration: 1000,
   infinite: true,
   indicators: false,
@@ -39,13 +39,19 @@ const Introduction = () => {
 
           <div className="verticalLine"></div>
           <div className="navBox">
-            <NavLink to="/about" style={{ textDecoration: 'none' }}>
+            <a
+              href="https://www.linkedin.com/in/queeni%C3%A9-williams/"
+              style={{ textDecoration: 'none' }}
+            >
               <h2 className="navTag">LinkedIn</h2>
-            </NavLink>
+            </a>
             <div id="circle"></div>
-            <NavLink to="/projects" style={{ textDecoration: 'none' }}>
+            <a
+              href="https://github.com/queeniewilliams?tab=repositories"
+              style={{ textDecoration: 'none' }}
+            >
               <h2 className="navTag">GitHub</h2>
-            </NavLink>
+            </a>
           </div>
           <div className="verticalLine"></div>
         </div>
@@ -64,7 +70,7 @@ const Introduction = () => {
               to="/projects"
               style={{ textDecoration: 'none', color: 'grey' }}
             > */}
-              <p>PROJECT</p>
+              <p>PROJECTS</p>
               {/* </NavLink> */}
             </ScrollIntoView>
             <NavLink to="/resume" style={{ textDecoration: 'none' }}>
@@ -103,6 +109,7 @@ const Introduction = () => {
                     className="slideImg"
                     src={fadeImages[1]}
                     alt="slideshow"
+                    style={{ filter: 'brightness(70%)' }}
                   />
                 </div>
               </div>
@@ -117,6 +124,7 @@ const Introduction = () => {
                     className="slideImg"
                     src={fadeImages[3]}
                     alt="slideshow"
+                    style={{ filter: 'brightness(70%)' }}
                   />
                 </div>
               </div>

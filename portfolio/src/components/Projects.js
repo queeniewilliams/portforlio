@@ -14,8 +14,8 @@ const Projects = () => {
           <img
             src="https://i.ibb.co/DYxz1C7/expensetracker.jpg"
             alt="project"
-            width="570px"
-            style={{ borderRadius: '5px', filter: 'brightness(60%)' }}
+            width="750px"
+            style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
             <p id="project-name">FinCloud</p>
@@ -33,19 +33,111 @@ const Projects = () => {
               <img
                 src="https://i.ibb.co/KF8bKgD/install-javascript-js-node-npm-tools-icon-1320165731324625592-512.png"
                 alt="project"
-                width="90px"
+                width="80px"
               />
               <img
                 src="https://i.ibb.co/k8njgQK/mongodb-original-wordmark-1324760552967962880-512.png"
                 alt="project"
-                width="75px"
-                height="75px"
+                width="65px"
+                height="65px"
               />
               <img
                 src="https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png"
                 alt="project"
-                width="70px"
-                height="75px"
+                width="65px"
+                height="65px"
+              />
+            </div>
+          </div>
+        </div>
+      </NavLink>
+      <NavLink
+        className="navlink"
+        to="/projects/rushhour"
+        style={{ textDecoration: 'none' }}
+      >
+        <div className="project">
+          <img
+            src="https://i.ibb.co/y88rRxB/Screen-Shot-2021-04-18-at-8-17-14-PM.png"
+            alt="project"
+            width="750px"
+            style={{ borderRadius: '5px' }}
+          />
+          <div id="project-intro">
+            <p id="project-name">Rush Hour</p>
+            <p id="text">
+              A digital interactive platform helps users to find free parking
+              nearby and detailed infomation.
+            </p>
+            <div id="icons">
+              <img
+                src="https://i.ibb.co/jbY89w4/design-development-facebook-framework-mobile-react-icon-1320165723839064798-512.png"
+                alt="project"
+                width="90px"
+              />
+              <img
+                src="https://i.ibb.co/P5rk8Wk/postgres.png"
+                alt="project"
+                width="80px"
+              />
+              <img
+                src="https://i.ibb.co/fQt7JTh/sequelize-logo-png-transparent.png"
+                alt="project"
+                width="55px"
+                height="60px"
+              />
+              <img
+                src="https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png"
+                alt="project"
+                width="65px"
+                height="65px"
+              />
+            </div>
+          </div>
+        </div>
+      </NavLink>
+      <NavLink
+        className="navlink"
+        to="/projects/ding"
+        style={{ textDecoration: 'none' }}
+      >
+        <div className="project">
+          <img
+            src="https://i.ibb.co/wYjyqZF/Screen-Shot-2021-04-27-at-2-08-10-PM.png"
+            alt="project"
+            width="750px"
+            style={{ borderRadius: '5px' }}
+          />
+          <div id="project-intro">
+            <p id="project-name">Ding!</p>
+            <p id="text">
+              Ding! is a fullstack application where users can customize their
+              fridge and generate recipe ideas based on what ingredients they
+              have on hand! Solving the ever looming question: "What should I
+              have for dinner!?".
+            </p>
+            <div id="icons">
+              <img
+                src="https://i.ibb.co/jbY89w4/design-development-facebook-framework-mobile-react-icon-1320165723839064798-512.png"
+                alt="project"
+                width="90px"
+              />
+              <img
+                src="https://i.ibb.co/KF8bKgD/install-javascript-js-node-npm-tools-icon-1320165731324625592-512.png"
+                alt="project"
+                width="80px"
+              />
+              <img
+                src="https://i.ibb.co/fQt7JTh/sequelize-logo-png-transparent.png"
+                alt="project"
+                width="55px"
+                height="60px"
+              />
+              <img
+                src="https://kalvanaveen.github.io/WebDevelopmentResources.github.io/Images/Express-JS-min.png"
+                alt="project"
+                width="65px"
+                height="65px"
               />
             </div>
           </div>
@@ -56,7 +148,7 @@ const Projects = () => {
           <img
             src="https://i.ibb.co/vd9R5KW/covid19-main.png"
             alt="project"
-            width="570px"
+            width="750px"
             style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
@@ -69,7 +161,7 @@ const Projects = () => {
           <img
             src="https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png"
             alt="project"
-            width="570px"
+            width="750px"
             style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
@@ -77,15 +169,21 @@ const Projects = () => {
           </div>
         </div>
       </NavLink>
-      <NavLink className="navlink" to="/p4" style={{ textDecoration: 'none' }}>
+      <NavLink
+        className="navlink"
+        to="/projects/nfty"
+        style={{ textDecoration: 'none' }}
+      >
         <div className="project">
           <img
-            src="https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2017Q2/project-planning-header@2x.png"
+            src="https://i.ibb.co/TW3MGpM/Screen-Shot-2021-04-27-at-3-55-55-PM.png"
             alt="project"
-            width="600px"
+            width="750px"
+            style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
-            <h2>Project 4</h2>
+            <p id="project-name">NFTy</p>
+            <p id="text"></p>
           </div>
         </div>
       </NavLink>

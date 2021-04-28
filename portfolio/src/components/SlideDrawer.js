@@ -21,14 +21,14 @@ export default class SlideDrawer extends React.Component {
               width="70em"
             />
           </ScrollIntoView>
-          <ScrollIntoView selector=".projects">
+          <NavLink to="/projects">
             <img
               id="sideNav"
               src="https://i.ibb.co/T2vk8f9/Screen-Shot-2021-03-12-at-10-14-53-PM.png"
               alt="project-Logo"
               width="70em"
             />
-          </ScrollIntoView>
+          </NavLink>
           <NavLink to="/resume">
             <img
               id="sideNav"
