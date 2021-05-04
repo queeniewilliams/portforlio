@@ -2,7 +2,6 @@ import React from 'react'
 import '../css/project.css'
 import SlideDrawer from './SlideDrawer'
 import Backdrop from './Backdrop'
-import Footer from './Footer'
 
 export default class FinCloud extends React.Component {
   state = { drawerOpen: false }
@@ -27,7 +26,6 @@ export default class FinCloud extends React.Component {
           src="https://i.ibb.co/HtDcFd4/image-copy.jpg"
           alt="image"
           width="100%"
-          height="70%"
           style={{ filter: 'brightness(50%)' }}
         />
         <h1 id="title-1">FinCloud</h1>
@@ -73,7 +71,7 @@ export default class FinCloud extends React.Component {
             <hr />
             <span style={{ display: 'flex' }}>
               <p className="summary">
-                <h1 style={{ fontSize: '3em' }}>FinCloud</h1>
+                <h1>FinCloud</h1>
                 <br></br>
                 The expense tracker aims to assist a user in managing personal
                 finances by offering not only a basic expense check but also a
@@ -92,31 +90,32 @@ export default class FinCloud extends React.Component {
           </span>
         </section>
         <section className="section3">
-          <div style={{ width: '500px' }}>
-            <h2>User Story</h2>
-            <p className="description">
-              After login, the user can access the following key features:
-              <br />
-              <br />
-              Add/ Edit/ Delete a transaction: The user can create a new income
-              or expense transaction which can be deleted or modified after the
-              creation.
-              <br />
-              <br />
-              Check recent transactions: The user will see all transactions took
-              place in the last three days and the sum of income, expense and
-              balance in the personal dashboard.
-              <br />
-              <br />
-              Check history transactions: The user can also check the list of
-              previous transactions along with the sum and ratio of income and
-              expense in a day, a week, a month and a year.
-            </p>
-          </div>
-          <img
-            src="https://i.ibb.co/mJD60Fp/ezgif-com-gif-maker-copy-3.gif"
-            width="600px"
-          />
+          <h2>User Story</h2>
+          <p className="description">
+            After login, the user can access the following key features:
+            <br />
+            <br />
+            Add/ Edit/ Delete a transaction: The user can create a new income or
+            expense transaction which can be deleted or modified after the
+            creation.
+            <br />
+            <br />
+            Check recent transactions: The user will see all transactions took
+            place in the last three days and the sum of income, expense and
+            balance in the personal dashboard.
+            <br />
+            <br />
+            Check history transactions: The user can also check the list of
+            previous transactions along with the sum and ratio of income and
+            expense in a day, a week, a month and a year.
+            <br />
+            <br />
+            Get an overview of incomes and expenses: All transactions of the
+            user are accumulated to the daily, weekly and monthly total sum and
+            visualized as a histogram. The user then gets a better understanding
+            of the weekly, monthly and yearly fluctuation of incomes and
+            expenses.
+          </p>
         </section>
         <br></br>
         <br></br>
@@ -140,7 +139,6 @@ export default class FinCloud extends React.Component {
             <p>Wireframe</p>
           </span>
         </section>
-        <Footer />
       </div>
     )
   }
