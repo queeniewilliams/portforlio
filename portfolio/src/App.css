@@ -68,7 +68,7 @@ h1 {
   grid-row: 2;
   color: rgb(228, 191, 143);
   font-family: 'Hind', sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   margin-bottom: 0;
   line-height: 1em;
 }
@@ -136,6 +136,17 @@ button.nav.default-nav {
 #enter:hover {
   border: white 2px solid;
 }
+footer {
+  background-color: rgb(29, 28, 28);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 1fr 2fr;
+}
+.footer-nav {
+  display: flex;
+}
+
 @media (max-width: 600px) {
   .page {
     width: 100%;

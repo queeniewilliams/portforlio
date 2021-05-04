@@ -82,8 +82,11 @@ li {
   justify-self: center;
 }
 .section3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
   justify-self: center;
-  width: 70%;
+  width: 80%;
 }
 .section4 {
   width: 70%;
@@ -107,7 +110,7 @@ hr {
 }
 .summary {
   width: 30vw;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .h2 {
   font-size: 2em;
@@ -116,14 +119,14 @@ hr {
 }
 .description {
   color: rgb(173, 173, 173);
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .rushhour-box {
   display: grid;
 }
 header {
   background-color: rgb(250, 248, 240);
-  height: 500px;
+  height: 400px;
   display: grid;
   align-items: center;
   justify-items: center;
@@ -138,7 +141,7 @@ header {
 .body-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 10em;
+  margin-top: 5em;
   align-items: center;
 }
 .demo {
@@ -149,10 +152,6 @@ header {
   width: 70%;
   justify-self: right;
   margin-right: 1em;
-}
-.demo-section {
-  justify-self: center;
-  margin-top: 10em;
 }
 
 .arrow {
@@ -182,10 +181,44 @@ header {
 }
 
 #h1 {
-  font-size: 4em;
+  font-size: 2.5em;
 }
 
 .wireframe {
   display: grid;
   justify-items: center;
+  margin-bottom: 10em;
+}
+.demo-box {
+  margin-top: 10em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.demo-section {
+  grid-column: 2;
+}
+
+.ding-summary {
+  width: 450px;
+  margin-left: 10em;
+}
+
+.gallery {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#left {
+  display: grid;
+  justify-items: center;
+  margin-right: -8em;
+}
+#right {
+  display: grid;
+  justify-items: center;
+  margin-left: -8em;
 }

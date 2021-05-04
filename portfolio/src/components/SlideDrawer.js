@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/About.css'
-import ScrollIntoView from 'react-scroll-into-view'
 import { NavLink } from 'react-router-dom'
 
 export default class SlideDrawer extends React.Component {
@@ -12,7 +11,7 @@ export default class SlideDrawer extends React.Component {
     return (
       <div className={drawerClasses}>
         <div className="sideNav">
-          <ScrollIntoView selector=".page">
+          <NavLink to="/">
             <img
               id="sideNav"
               src="https://i.ibb.co/4sPfHDV/Screen-Shot-2021-03-12-at-10-11-38-PM.png
@@ -20,7 +19,7 @@ export default class SlideDrawer extends React.Component {
               alt="project-Logo"
               width="70em"
             />
-          </ScrollIntoView>
+          </NavLink>
           <NavLink to="/projects">
             <img
               id="sideNav"
