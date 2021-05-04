@@ -52,20 +52,7 @@ const RushHour = () => {
           width="350px"
         />
       </div>
-      <span id="seperate-line"></span>
-      <div style={{ width: '1000px', justifySelf: 'center', marginTop: '5em' }}>
-        <h1 id="h1">User Story</h1>
-        <h3 style={{ lineHeight: '1.5' }}>
-          After login, the user can access the following key features:
-          <br></br>- Users are able to log in to add/edit/delete their parking
-          spot.
-          <br></br> - Users are able to log in to see free parkings nearby.
-          <br></br>- Users are able to see the distance between current location
-          and the parking spot.
-          <br></br> - Users are able to leave reviews for the parking after
-          their visit and post pictures.
-        </h3>
-      </div>
+
       <div className="body-container">
         <div className="wireframe">
           <img
@@ -73,13 +60,24 @@ const RushHour = () => {
             width="500px"
           />
           <h3>Main screens</h3>
-        </div>
-        <div className="wireframe" style={{ justifySelf: 'left' }}>
           <img
             src="https://i.ibb.co/L8nRTDB/Blank-diagram-copy.png"
             width="600px"
           />
           <h3>Wireframe</h3>
+        </div>
+        <div className="rushhour-content">
+          <h1 id="h1">User Story</h1>
+          <h3 style={{ lineHeight: '1.5' }}>
+            After login, the user can access the following key features:
+            <br></br>- Users are able to log in to add/edit/delete their parking
+            spot.
+            <br></br> - Users are able to log in to see free parkings nearby.
+            <br></br>- Users are able to see the distance between current
+            location and the parking spot.
+            <br></br> - Users are able to leave reviews for the parking after
+            their visit and post pictures.
+          </h3>
         </div>
       </div>
       <Footer />

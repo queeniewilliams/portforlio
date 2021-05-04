@@ -141,12 +141,14 @@ header {
 .body-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 5em;
   align-items: center;
+  padding-top: 10em;
+  background-color: rgb(48, 48, 92);
 }
 .demo {
   grid-column: 2;
   margin-left: 10em;
+  border-radius: 3em;
 }
 .rushhour-summary {
   width: 70%;
@@ -187,7 +189,13 @@ header {
 .wireframe {
   display: grid;
   justify-items: center;
-  margin-bottom: 10em;
+  padding: 5em;
+  background-color: antiquewhite;
+}
+.rushhour-content {
+  width: 60%;
+  padding: 5em;
+  background-color: rgb(26, 26, 46);
 }
 .demo-box {
   margin-top: 10em;
