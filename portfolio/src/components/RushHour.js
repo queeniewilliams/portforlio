@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const RushHour = () => {
   return (
@@ -31,7 +32,7 @@ const RushHour = () => {
       <div className="body-container">
         <div className="rushhour-summary">
           <h1 id="h1">summary</h1>
-          <h3 style={{ lineHeight: '1.5', fontSize: '25px' }}>
+          <h3 style={{ lineHeight: '1.5' }}>
             RushHour is an interactive app where it helps users to find free
             parking nearby. Users are able to log into the app and post an free
             parking they found; meanwhile, all users are able to see the free
@@ -41,22 +42,20 @@ const RushHour = () => {
           <img
             className="arrow bounce"
             src="https://i.ibb.co/N6DvSzv/image-1.png"
-            width="100px"
+            width="70px"
           />
         </div>
         <img
           className="demo"
           alt="demo"
           src="https://i.ibb.co/x2cTw2K/ezgif-com-gif-maker.gif"
-          width="450px"
+          width="350px"
         />
       </div>
       <span id="seperate-line"></span>
-      <div
-        style={{ width: '1000px', justifySelf: 'center', marginTop: '10em' }}
-      >
-        <h1 style={{ fontSize: '3em' }}>User Story</h1>
-        <h3 style={{ lineHeight: '1.5', fontSize: '25px' }}>
+      <div style={{ width: '1000px', justifySelf: 'center', marginTop: '5em' }}>
+        <h1 id="h1">User Story</h1>
+        <h3 style={{ lineHeight: '1.5' }}>
           After login, the user can access the following key features:
           <br></br>- Users are able to log in to add/edit/delete their parking
           spot.
@@ -71,18 +70,19 @@ const RushHour = () => {
         <div className="wireframe">
           <img
             src="https://i.ibb.co/y88rRxB/Screen-Shot-2021-04-18-at-8-17-14-PM.png"
-            width="600px"
+            width="500px"
           />
           <h3>Main screens</h3>
         </div>
         <div className="wireframe" style={{ justifySelf: 'left' }}>
           <img
             src="https://i.ibb.co/L8nRTDB/Blank-diagram-copy.png"
-            width="700px"
+            width="600px"
           />
           <h3>Wireframe</h3>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

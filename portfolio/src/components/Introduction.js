@@ -6,6 +6,7 @@ import 'react-slideshow-image/dist/styles.css'
 import ScrollIntoView from 'react-scroll-into-view'
 import About from './About'
 import Projects from './Projects'
+import Footer from './Footer'
 
 const fadeImages = [
   'https://i.ibb.co/DYxz1C7/expensetracker.jpg',
@@ -140,6 +141,7 @@ const Introduction = () => {
       </div>
       <About />
       <Projects />
+      <Footer />
     </div>
   )
 }
