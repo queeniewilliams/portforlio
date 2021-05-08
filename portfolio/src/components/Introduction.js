@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { animations } from 'react-animation'
 import { Fade } from 'react-slideshow-image'
@@ -7,12 +7,14 @@ import ScrollIntoView from 'react-scroll-into-view'
 import About from './About'
 import Projects from './Projects'
 import Footer from './Footer'
+import SlideDrawer from './SlideDrawer'
+import Backdrop from './Backdrop'
 
 const fadeImages = [
   'https://i.ibb.co/DYxz1C7/expensetracker.jpg',
-  'https://i.ibb.co/vd9R5KW/covid19-main.png',
-  'https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png',
-  'https://i.ibb.co/y88rRxB/Screen-Shot-2021-04-18-at-8-17-14-PM.png'
+  'https://i.ibb.co/y88rRxB/Screen-Shot-2021-04-18-at-8-17-14-PM.png',
+  'https://i.ibb.co/wYjyqZF/Screen-Shot-2021-04-27-at-2-08-10-PM.png',
+  'https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png'
 ]
 const properties = {
   duration: 4000,
@@ -22,9 +24,15 @@ const properties = {
   arrows: false
 }
 
-const Introduction = () => {
+const Introduction = (props) => {
   return (
     <div>
+      <div className="rushhour-header" ref={props.element}>
+        <SlideDrawer show={props.drawerOpen} />
+        {props.drawerOpen ? (
+          <Backdrop close={props.backdropClickHandler} />
+        ) : null}
+      </div>
       <div className="page">
         <div
           className="navBar"
@@ -74,9 +82,9 @@ const Introduction = () => {
               <p>PROJECTS</p>
               {/* </NavLink> */}
             </ScrollIntoView>
-            <NavLink to="/resume" style={{ textDecoration: 'none' }}>
+            <a href="https://drive.google.com/file/d/1hFSzLfUZS0oX4ep0lT0sHu6p0d5lH0TQ/view?usp=sharing">
               <p>RESUME</p>
-            </NavLink>
+            </a>
           </div>
           <div className="title">
             <h3>Queenie Williams</h3>

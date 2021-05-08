@@ -17,7 +17,7 @@ export default class SlideDrawer extends React.Component {
               src="https://i.ibb.co/4sPfHDV/Screen-Shot-2021-03-12-at-10-11-38-PM.png
               "
               alt="project-Logo"
-              width="70em"
+              width="50em"
             />
           </NavLink>
           <NavLink to="/projects">
@@ -25,29 +25,29 @@ export default class SlideDrawer extends React.Component {
               id="sideNav"
               src="https://i.ibb.co/T2vk8f9/Screen-Shot-2021-03-12-at-10-14-53-PM.png"
               alt="project-Logo"
-              width="70em"
+              width="50em"
             />
           </NavLink>
-          <NavLink to="/resume">
+          <a href="https://drive.google.com/file/d/1hFSzLfUZS0oX4ep0lT0sHu6p0d5lH0TQ/view?usp=sharing">
             <img
               id="sideNav"
               src="https://i.ibb.co/XSgDDrg/Screen-Shot-2021-03-18-at-7-36-29-PM.png"
               alt="project-Logo"
-              width="70em"
+              width="50em"
             />
-          </NavLink>
+          </a>
           <img
             id="sideNav"
             src="https://i.ibb.co/WgfdL9K/Screen-Shot-2021-03-18-at-7-25-14-PM.png
             "
             alt="project-Logo"
-            width="60em"
+            width="40em"
           />
           <img
             id="sideNav"
             src="https://i.ibb.co/K6YjxVg/Screen-Shot-2021-03-18-at-7-25-56-PM.png"
             alt="project-Logo"
-            width="60em"
+            width="40em"
           />
         </div>
       </div>

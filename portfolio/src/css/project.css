@@ -1,7 +1,6 @@
 .projects {
   padding: 10em 0 10em 0;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   background-color: black;
   height: 100%;
 }
@@ -70,8 +69,11 @@ li {
   list-style: none;
   color: rgb(173, 173, 173);
   margin: 1em auto 1em 0;
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
+}
+.rushhour-intro {
+  display: flex;
+  justify-content: space-between;
 }
 .section2 {
   width: 70%;
@@ -114,7 +116,7 @@ hr {
 }
 .h2 {
   font-size: 2em;
-  margin-left: 0;
+  margin: 1em 0 0 0;
   color: rgb(228, 191, 143);
 }
 .description {
@@ -123,6 +125,7 @@ hr {
 }
 .rushhour-box {
   display: grid;
+  background-color: #093824;
 }
 header {
   background-color: rgb(250, 248, 240);
@@ -142,8 +145,7 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding-top: 10em;
-  background-color: rgb(48, 48, 92);
+  background-color: black;
 }
 .demo {
   grid-column: 2;
@@ -153,7 +155,10 @@ header {
 .rushhour-summary {
   width: 70%;
   justify-self: right;
-  margin-right: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+  margin-top: 3em;
+  background-color: rgb(82, 82, 83);
 }
 
 .arrow {
@@ -190,43 +195,73 @@ header {
   display: grid;
   justify-items: center;
   padding: 5em;
-  background-color: antiquewhite;
+  background-color: rgb(233, 216, 196);
 }
 .rushhour-content {
   width: 60%;
-  padding: 5em;
-  background-color: rgb(26, 26, 46);
+  padding: 2.5em 4em 2.5em 4em;
+  background-color: rgb(82, 82, 83);
+  justify-self: center;
 }
 .demo-box {
-  margin-top: 10em;
   display: grid;
-  grid-template-columns: 1fr 2fr;
   justify-items: center;
   align-items: center;
+  grid-template-columns: 1fr 1.5fr;
+  background-color: #7fb685;
 }
 
 .demo-section {
   grid-column: 2;
+  display: grid;
+  justify-items: center;
 }
 
 .ding-summary {
-  width: 450px;
-  margin-left: 10em;
+  width: 70%;
+  padding: 2em 2em 0 2em;
+  background-color: #093824;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  margin-right: -5em;
 }
 
 .gallery {
   display: grid;
+  justify-self: center;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+  background-color: #7fb685;
+  width: 70%;
+  padding-top: 5em;
 }
 
 #left {
   display: grid;
   justify-items: center;
-  margin-right: -8em;
+  /* margin-right: -8em; */
 }
 #right {
   display: grid;
   justify-items: center;
-  margin-left: -8em;
+  /* margin-left: -8em; */
+}
+
+h6 {
+  font-size: 15px;
+}
+.rushhour-header {
+  background-color: rgb(48, 48, 92);
+}
+.title-logo {
+  transform: rotate(-10deg);
+  /* margin-top: -2.5em; */
+  /* margin-left: 0.3em; */
+  color: #093824;
+  font-family: 'Hind', sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+}
+.launch {
+  color: rgb(173, 173, 173);
 }

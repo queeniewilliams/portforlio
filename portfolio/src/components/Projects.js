@@ -1,10 +1,18 @@
 import React from 'react'
 import '../css/project.css'
 import { NavLink } from 'react-router-dom'
+import SlideDrawer from './SlideDrawer'
+import Backdrop from './Backdrop'
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <div className="projects">
+      <div className="rushhour-header" ref={props.element}>
+        <SlideDrawer show={props.drawerOpen} />
+        {props.drawerOpen ? (
+          <Backdrop close={props.backdropClickHandler} />
+        ) : null}
+      </div>
       <NavLink
         className="navlink"
         to="/projects/rushhour"
@@ -20,8 +28,8 @@ const Projects = () => {
           <div id="project-intro">
             <p id="project-name">Rush Hour</p>
             <p id="text">
-              A digital interactive platform helps users to find free parking
-              nearby and detailed infomation.
+              A digital interactive platform that helps users to find free
+              parking nearby and detailed information.
             </p>
             <div id="icons">
               <img
@@ -160,7 +168,11 @@ const Projects = () => {
           </div>
         </div>
       </NavLink>
-      <NavLink className="navlink" to="/p3" style={{ textDecoration: 'none' }}>
+      <NavLink
+        className="navlink"
+        to="/projects/roulette"
+        style={{ textDecoration: 'none' }}
+      >
         <div className="project">
           <img
             src="https://i.ibb.co/h1HR28y/Screen-Shot-2021-02-11-at-2-07-23-PM.png"
@@ -169,7 +181,15 @@ const Projects = () => {
             style={{ borderRadius: '5px' }}
           />
           <div id="project-intro">
-            <h2>Project 3</h2>
+            <p id="project-name">Casino Roulette</p>
+            <p id="text">An online casino roulette game.</p>
+            <div id="icons">
+              <img
+                src="https://i.ibb.co/RCjhWjG/javascript-icon-130900.png"
+                alt="project"
+                width="50px"
+              />
+            </div>
           </div>
         </div>
       </NavLink>
